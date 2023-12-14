@@ -83,7 +83,7 @@ INT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		sprintf(sz_title, "%s Position: %ix%i, Size: %ix%i", g_sz_WINDOW_CLASS,
 		rect.left, rect.top,
 		rect.right - rect.left, rect.bottom - rect.top);
-		SendMessage(hwnd, WM_SETTEXT, 0, (LPARAM)sz_title);
+		SendMessage(hwnd, WM_SETTEXT, 0, (LPARAM)+++sz_title);
 	}
 	break;
 	case WM_COMMAND:
