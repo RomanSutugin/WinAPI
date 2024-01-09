@@ -7,7 +7,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinAPI", "WinAPI\WinAPI.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DialogBox", "DialogBox\DialogBox.vcxproj", "{11C807F5-5606-4784-A62C-A448C43A03FD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainWimdows", "MainWimdows\MainWimdows.vcxproj", "{DD8ABB31-D366-4010-855D-C98E7DB10612}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainWindows", "MainWimdows\MainWimdows.vcxproj", "{DD8ABB31-D366-4010-855D-C98E7DB10612}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calc", "Calc\Calc.vcxproj", "{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{DD8ABB31-D366-4010-855D-C98E7DB10612}.Release|x64.Build.0 = Release|x64
 		{DD8ABB31-D366-4010-855D-C98E7DB10612}.Release|x86.ActiveCfg = Release|Win32
 		{DD8ABB31-D366-4010-855D-C98E7DB10612}.Release|x86.Build.0 = Release|Win32
+		{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}.Debug|x64.ActiveCfg = Debug|x64
+		{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}.Debug|x64.Build.0 = Debug|x64
+		{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}.Debug|x86.Build.0 = Debug|Win32
+		{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}.Release|x64.ActiveCfg = Release|x64
+		{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}.Release|x64.Build.0 = Release|x64
+		{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}.Release|x86.ActiveCfg = Release|Win32
+		{7D05C816-B5D7-4AF3-A34A-D0856B9857EF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
